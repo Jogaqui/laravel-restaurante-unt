@@ -11,9 +11,9 @@
         <link rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
         <!-- Font Awesome -->
-        <link rel="stylesheet" href="{{ asset('adminlte/plugins/fontawesome-free/css/all.min.css') }}">
+        <link rel="stylesheet" href="./adminlte/plugins/fontawesome-free/css/all.min.css">
         <!-- Theme style -->
-        <link rel="stylesheet" href="{{ asset('adminlte/dist/css/adminlte.min.css') }}">
+        <link rel="stylesheet" href="./adminlte/dist/css/adminlte.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
         @yield('css')
@@ -447,11 +447,11 @@
 
 
         <!-- jQuery -->
-        <script src="{{ asset('adminlte/plugins/jquery/jquery.min.js') }}"></script>
+        <script src="./adminlte/plugins/jquery/jquery.min.js"></script>
         <!-- Bootstrap 4 -->
-        <script src="{{ asset('adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+        <script src="./adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
         <!-- AdminLTE App -->
-        <script src="{{ asset('adminlte/dist/js/adminlte.min.js') }}"></script>
+        <script src="./adminlte/dist/js/adminlte.min.js"></script>
         <!-- AdminLTE for demo purposes -->
 
         <!-- Script javascript -->
