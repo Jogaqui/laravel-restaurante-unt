@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LOGIN</title>
-    <link rel="stylesheet" href="{{url('assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href=".\assets\css\bootstrap.min.css">
     <style>
         body{
             width: 100%;
@@ -23,6 +23,6 @@
     <div class="form-container">
        @yield('content')
     </div>
-    <script src="{{url('assets/js/bootstrap.bundle.min.js')}}"></script>
+    <script src=".\assets\js\bootstrap.bundle.min.js"></script>
 </body>
 </html>
